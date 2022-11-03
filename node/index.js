@@ -8,7 +8,7 @@ division(50,10)
  const primerTxt = fs.readFileSync("./archivo/text.txt","utf-8");
  console.log(primerTxt)
 //en esta seccion estamos insertando un texto un archivo de texto ya existente.
- let content ="Hola, esta linea no se encuentra en el texto normal, es añadida por js ||";
+ let content ="Hola, esta linea no se encuentra en el texto normal, es añadida por js algo ||";
  fs.writeFileSync("./archivo/text2.txt",content,{flag:"a"});
 
 
